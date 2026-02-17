@@ -11,31 +11,31 @@ const sections = [
   },
   {
     title: "3. Publishing Rules by Package",
-    content: `• First Meet (LKR 20,000): The promotion is published on 1 platform / 1 channel only. The video remains publicly visible for 30 days. The client does not have the right to repost or publish the promotion on their own channels.\n\n• The Promotion (LKR 100,000): The promotion is published across all available platforms and channels. The video remains publicly visible for 30 days. The client is granted the right to repost or publish the promotion on their own channels for the duration of the 30-day uptime.\n\n• Move Around (Custom): Platform mix, duration, and deliverables are agreed upon in writing. Terms are fully negotiable and may include royalty, revenue-share, or long-term brand partnership arrangements.`,
+    content: `• First Meet (LKR 20,000): Published on 1 platform/channel only. Visible for 30 days. Client has no reposting rights.\n\n• The Promotion (LKR 100,000): Published across all platforms. Visible for 30 days. Client may repost on their own organic channels for the 30-day window.\n\n• Move Around (Custom): Negotiable terms for duration, revenue-share, or "Perpetual Usage" (lifetime rights), allowing the content to remain live indefinitely for a one-time buyout fee.`,
   },
   {
-    title: "4. Extension Policy",
-    content: `After the 30-day visibility period, promotions will be taken down or made private. Clients who wish to extend the uptime must pay an extension fee, which will be quoted at the time of the extension request. Extensions are not automatic and must be booked in advance.`,
+    title: "4. Extension & Unauthorized Usage Fee",
+    content: `After the 30-day period, promotions must be removed or made private. Extensions must be booked in advance. A 3-day grace period is provided for removal. If content remains active on client channels after the grace period without an extension, an Unauthorized Usage Fee of 1/30th of the original package total will be charged daily until removal.`,
   },
   {
     title: "5. Revisions",
-    content: `Each package includes a limited number of revisions (typically up to 2 rounds). Revision requests must be submitted within 5 business days of receiving the draft. Additional revisions beyond the included limit may incur extra charges.`,
+    content: `Each package includes up to 2 rounds of revisions. Revision requests must be submitted within 5 business days of receiving the draft. Additional revisions beyond this limit will incur extra charges based on the complexity of the request.`,
   },
   {
-    title: "6. Usage Rights",
-    content: `Client repost/reuse permission is only granted under "The Promotion" package (LKR 100,000) and is limited to the 30-day uptime window. After the uptime expires, reuse rights also expire unless a separate agreement is made. For "First Meet," all distribution rights remain exclusively with Kumar Jayaranga / Tringledo (Pvt) Ltd.`,
+    title: "6. Usage Rights & Whitelisting",
+    content: `Kumar Jayaranga retains all moral and intellectual property rights, including the right to use the content for personal portfolio and marketing purposes. Organic reposting is only permitted under "The Promotion." Using the content for "Whitelisting" (Paid Ads/Spark Ads) is strictly prohibited unless a separate licensing fee is agreed upon in writing.`,
   },
   {
     title: "7. Content Restrictions & Brand Safety",
-    content: `We reserve the right to decline any promotion request that involves content deemed harmful, misleading, illegal, discriminatory, or otherwise in violation of community guidelines of the platforms used. Brand safety is paramount; we will not publish content that could damage either party's reputation.`,
+    content: `We reserve the right to decline any promotion involving content deemed harmful, misleading, illegal, or in violation of platform guidelines. Brand safety is paramount; content that risks the reputation of Kumar Jayaranga or Tringledo (Pvt) Ltd will not be published.`,
   },
   {
-    title: "8. Removal Policy After Uptime",
-    content: `Once the agreed-upon visibility period expires, the promotion will be removed, unlisted, or made private at our discretion. If the client requires immediate removal before the uptime expires, they must submit a written request. Early removal does not entitle the client to a refund.`,
+    title: "8. Removal Policy",
+    content: `Once the uptime expires, the promotion will be unlisted or made private. If the client fails to remove reposted content within the grace period (Section 4), the daily Unauthorized Usage Fee will be invoiced immediately. Early removal by client request does not entitle the client to a refund.`,
   },
   {
     title: "9. Liability & Disclaimers",
-    content: `Kumar Jayaranga and Tringledo (Pvt) Ltd are not liable for any indirect, incidental, or consequential damages arising from the promotion. Performance results (views, clicks, conversions) are not guaranteed. Platform algorithm changes, policy updates, or force majeure events may impact reach and visibility.`,
+    content: `Kumar Jayaranga and Tringledo (Pvt) Ltd are not liable for incidental or consequential damages. Performance metrics (views/conversions) are not guaranteed. Platform algorithm shifts, policy updates, or force majeure events are outside of our control.`,
   },
 ];
 
