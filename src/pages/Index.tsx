@@ -63,12 +63,12 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
         <div className="container relative z-10 flex flex-col items-center py-32 text-center md:py-44">
           <h1 className="animate-fade-in-up font-heading text-4xl font-bold leading-tight md:text-6xl lg:text-7xl">
-            Tech, Science &amp; Conspiracy
+            Tech, Science &amp; Education
             <br />
             <span className="text-gradient">Promotions</span>
           </h1>
           <p className="mt-6 max-w-2xl animate-fade-in-up text-lg text-muted-foreground [animation-delay:0.15s]" style={{ opacity: 0 }}>
-            Exploring the intersection of technology, science, and the unexplained.
+            Exploring the intersection of Technology, Science, and the Education.
             <br className="hidden sm:block" />
             Professional video promotion packages for Sri Lankan businesses.
           </p>
