@@ -50,7 +50,7 @@ const Terms = () => (
 
     <div className="mt-6">
       <DownloadButton
-        href="/print/terms"
+        href="/#/print/terms"
         label="Download Terms & Conditions PDF"
         version="1.0"
         lastUpdated="February 2026"
