@@ -1,15 +1,42 @@
 import { useEffect } from "react";
 
 const sections = [
-  { title: "1. Payment & Invoicing", content: "All prices are quoted in Sri Lankan Rupees (LKR). Payment must be completed in full before the promotion goes live, unless a custom arrangement has been agreed in writing. Invoices are issued by Tringledo (Pvt) Ltd. Payment methods and banking details will be provided upon booking." },
-  { title: "2. Approval Process", content: "Where applicable, clients must submit a script or content outline for review before production begins. Approval or revision requests must be communicated within 3 business days. Once a script is approved in writing, the production phase begins." },
-  { title: "3. Publishing Rules by Package", content: "First Meet (LKR 20,000): Published on 1 platform / 1 channel only. Visible for 30 days. Client does not have the right to repost.\n\nThe Promotion (LKR 100,000): Published across all platforms and channels. Visible for 30 days. Client may repost on their own channels for 30 days.\n\nMove Around (Custom): Platform mix, duration, and deliverables agreed in writing. Terms fully negotiable including royalty and revenue-share arrangements." },
-  { title: "4. Extension Policy", content: "After the 30-day visibility period, promotions will be taken down or made private. Clients who wish to extend must pay an extension fee quoted at the time of request. Extensions are not automatic and must be booked in advance." },
-  { title: "5. Revisions", content: "Each package includes up to 2 rounds of revisions. Revision requests must be submitted within 5 business days of receiving the draft. Additional revisions may incur extra charges." },
-  { title: "6. Usage Rights", content: "Client repost/reuse permission is only granted under \"The Promotion\" package and limited to the 30-day uptime window. After expiry, reuse rights also expire unless separately agreed. For \"First Meet,\" all distribution rights remain with Kumar Jayaranga / Tringledo (Pvt) Ltd." },
-  { title: "7. Content Restrictions & Brand Safety", content: "We reserve the right to decline any promotion involving content deemed harmful, misleading, illegal, discriminatory, or in violation of platform community guidelines. Brand safety is paramount." },
-  { title: "8. Removal Policy After Uptime", content: "Once the agreed visibility period expires, the promotion will be removed, unlisted, or made private. If the client requires early removal, they must submit a written request. Early removal does not entitle the client to a refund." },
-  { title: "9. Liability & Disclaimers", content: "Kumar Jayaranga and Tringledo (Pvt) Ltd are not liable for any indirect, incidental, or consequential damages. Performance results (views, clicks, conversions) are not guaranteed. Platform algorithm changes or force majeure events may impact visibility." },
+  { 
+    title: "1. Payment & Invoicing", 
+    content: "All prices are quoted in Sri Lankan Rupees (LKR). Payment must be completed in full before the promotion goes live, unless a custom arrangement has been agreed in writing. Invoices are issued by Tringledo (Pvt) Ltd. Payment methods and banking details will be provided upon booking." 
+  },
+  { 
+    title: "2. Approval Process", 
+    content: "Where applicable, clients must submit a script or content outline for review before production begins. Approval or revision requests must be communicated within 3 business days. Once a script is approved in writing, the production phase begins." 
+  },
+  { 
+    title: "3. Publishing Rules by Package", 
+    content: "First Meet (LKR 20,000): Published on 1 platform / 1 channel only. Visible for 30 days. Client does not have the right to repost.\n\nThe Promotion (LKR 100,000): Published across all platforms and channels. Visible for 30 days. Client may repost on their own channels for 30 days.\n\nMove Around (Custom): Negotiable terms including royalty, revenue-share, or Perpetual Usage (lifetime rights) allowing content to remain live indefinitely for a one-time buyout fee." 
+  },
+  { 
+    title: "4. Extension & Unauthorized Usage", 
+    content: "After the 30-day visibility period, promotions must be removed or made private. Extensions must be booked in advance. A 3-day grace period is provided for removal. If content remains active on client channels after the grace period without an extension, an Unauthorized Usage Fee of 1/30th of the original total package price will be charged daily until removal." 
+  },
+  { 
+    title: "5. Revisions", 
+    content: "Each package includes up to 2 rounds of revisions. Revision requests must be submitted within 5 business days of receiving the draft. Additional revisions may incur extra charges." 
+  },
+  { 
+    title: "6. Usage Rights & Whitelisting", 
+    content: "Kumar Jayaranga retains all moral and intellectual property rights, including the right to use content for personal portfolio and marketing. Client reposting is limited to 'The Promotion' package for the 30-day window. Whitelisting (Paid Ads/Spark Ads) is strictly prohibited unless a separate licensing fee is agreed upon in writing." 
+  },
+  { 
+    title: "7. Content Restrictions & Brand Safety", 
+    content: "We reserve the right to decline any promotion involving content deemed harmful, misleading, illegal, or in violation of platform guidelines. Brand safety is paramount; content that risks the reputation of Kumar Jayaranga or Tringledo (Pvt) Ltd will not be published." 
+  },
+  { 
+    title: "8. Removal Policy After Uptime", 
+    content: "Once the agreed visibility period expires, the promotion will be unlisted or made private. If the client fails to remove reposted content within the grace period (Section 4), the daily Unauthorized Usage Fee will be invoiced immediately. Early removal does not entitle the client to a refund." 
+  },
+  { 
+    title: "9. Liability & Disclaimers", 
+    content: "Kumar Jayaranga and Tringledo (Pvt) Ltd are not liable for any indirect, incidental, or consequential damages. Performance results (views, clicks, conversions) are not guaranteed. Platform algorithm changes or force majeure events may impact visibility." 
+  },
 ];
 
 const PrintTerms = () => {
