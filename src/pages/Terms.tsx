@@ -11,7 +11,7 @@ const sections = [
   },
   {
     title: "3. Publishing Rules by Package",
-    content: `• First Meet (LKR 20,000): Published on 1 platform/channel only. Visible for 30 days. Client has no reposting rights.\n\n• The Promotion (LKR 100,000): Published across all platforms. Visible for 30 days. Client may repost on their own organic channels for the 30-day window.\n\n• Move Around (Custom): Negotiable terms for duration, revenue-share, or "Perpetual Usage" (lifetime rights), allowing the content to remain live indefinitely for a one-time buyout fee.`,
+    content: `• First Meet : Published on 1 platform/channel only. Visible for 30 days. Client has no reposting rights.\n\n• The Promotion : Published across all platforms. Visible for 30 days. Client may repost on their own organic channels for the 30-day window.\n\n• Move Around : Negotiable terms for duration, revenue-share, or "Perpetual Usage" (lifetime rights), allowing the content to remain live indefinitely for a one-time buyout fee.`,
   },
   {
     title: "4. Extension & Unauthorized Usage Fee",
