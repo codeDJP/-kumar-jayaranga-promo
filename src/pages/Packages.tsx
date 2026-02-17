@@ -75,8 +75,8 @@ const Packages = () => (
 
     {/* Downloads */}
     <div className="mt-8 flex flex-wrap gap-4">
-      <DownloadButton href="/print/price-list" label="Download Price List" version="1.0" lastUpdated="Feb 2026" />
-      <DownloadButton href="/print/terms" label="Download T&C" version="1.0" lastUpdated="Feb 2026" />
+      <DownloadButton href="/#/print/price-list" label="Download Price List" version="1.0" lastUpdated="Feb 2026" />
+      <DownloadButton href="/#/print/terms" label="Download T&C" version="1.0" lastUpdated="Feb 2026" />
     </div>
   </div>
 );
