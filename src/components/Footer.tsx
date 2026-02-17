@@ -12,7 +12,7 @@ const Footer = () =>
  </span> Promo
           </h3>
           <p className="mt-2 text-sm text-muted-foreground">
-            Tech, Science & Conspiracy promotions. Professional video promotion services for Sri Lankan businesses.
+            Tech, Science & Education promotions. Professional video promotion services for Sri Lankan businesses.
           </p>
         </div>
 
