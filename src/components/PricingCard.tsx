@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 
 interface PricingCardProps {
   name: string;
-  price: string;
-  priceNote?: string;
   bestFor: string;
   features: { label: string; included: boolean }[];
   cta: { label: string; to: string };
