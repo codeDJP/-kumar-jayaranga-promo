@@ -2,8 +2,10 @@
     "name": "promo-spark-lkr",
     "compatibility_date": "2024-09-23",
     "assets": {
-        "directory": "./dist"
+        "directory": "./dist",
+        "binding": "ASSETS"
     },
+    "main": "src/worker.ts",
     "observability": {
         "enabled": true
     }
