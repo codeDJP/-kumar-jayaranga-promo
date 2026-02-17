@@ -11,7 +11,7 @@ const sections = [
   },
   { 
     title: "3. Publishing Rules by Package", 
-    content: "First Meet (LKR 20,000): Published on 1 platform / 1 channel only. Visible for 30 days. Client does not have the right to repost.\n\nThe Promotion (LKR 100,000): Published across all platforms and channels. Visible for 30 days. Client may repost on their own channels for 30 days.\n\nMove Around (Custom): Negotiable terms including royalty, revenue-share, or Perpetual Usage (lifetime rights) allowing content to remain live indefinitely for a one-time buyout fee." 
+    content: "First Meet : Published on 1 platform / 1 channel only. Visible for 30 days. Client does not have the right to repost.\n\nThe Promotion : Published across all platforms and channels. Visible for 30 days. Client may repost on their own channels for 30 days.\n\nMove Around : Negotiable terms including royalty, revenue-share, or Perpetual Usage (lifetime rights) allowing content to remain live indefinitely for a one-time buyout fee." 
   },
   { 
     title: "4. Extension & Unauthorized Usage", 
