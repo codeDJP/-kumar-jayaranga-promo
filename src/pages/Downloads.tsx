@@ -5,14 +5,14 @@ const documents = [
   {
     title: "Price List",
     description: "Complete pricing for all promotion packages in LKR.",
-    href: "/print/price-list",
+    href: "/docs/price-list.pdf",
     version: "1.0",
     lastUpdated: "February 2026",
   },
   {
     title: "Terms & Conditions",
     description: "Full terms covering payment, publishing rules, extensions, usage rights, and more.",
-    href: "/print/terms",
+    href: "/docs/terms-and-conditions.pdf",
     version: "1.0",
     lastUpdated: "February 2026",
   },
@@ -47,7 +47,7 @@ const Downloads = () => (
               </p>
             </div>
           </div>
-          <DownloadButton href={doc.href} label="View Document" variant="hero" size="sm" />
+          <DownloadButton href={doc.href} label={`Download ${doc.title}`} variant="hero" size="sm" />
         </div>
       ))}
     </div>
