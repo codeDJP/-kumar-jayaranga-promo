@@ -88,13 +88,13 @@ const Index = () => {
 
           <div className="mt-6 flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:0.45s]" style={{ opacity: 0 }}>
             <DownloadButton
-              href="/docs/price-list.pdf"
+              href="/print/price-list"
               label="Download Price List"
               variant="outline"
               size="sm"
             />
             <DownloadButton
-              href="/docs/terms-and-conditions.pdf"
+              href="/print/terms"
               label="Download T&C"
               variant="outline"
               size="sm"
