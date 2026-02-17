@@ -7,7 +7,7 @@ const navLinks = [
 { to: "/", label: "Home" },
 { to: "/packages", label: "Packages" },
 { to: "/downloads", label: "Downloads" },
-{ to: "/terms", label: "Terms" },
+{ to: "/terms", label: "T&C" },
 { to: "/privacy", label: "Privacy" },
 { to: "/contact", label: "Contact" }];
 
