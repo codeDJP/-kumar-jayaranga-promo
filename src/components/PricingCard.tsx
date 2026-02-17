@@ -28,11 +28,7 @@ const PricingCard = ({ name, price, priceNote, bestFor, features, cta, featured 
       </div>
     )}
 
-    <h3 className="font-heading text-xl font-bold">{name}</h3>
-    <div className="mt-4">
-      <span className="font-heading text-4xl font-bold text-gradient">{price}</span>
-      {priceNote && <span className="ml-2 text-sm text-muted-foreground">{priceNote}</span>}
-    </div>
+    <h3 className="font-heading text-4xl font-bold text-gradient">{name}</h3>
     <p className="mt-2 text-sm text-muted-foreground">Best for: {bestFor}</p>
 
     <ul className="mt-6 flex-1 space-y-3">
