@@ -4,7 +4,6 @@ import DownloadButton from "@/components/DownloadButton";
 const packages = [
   {
     name: "First Meet",
-    price: "LKR 20,000",
     bestFor: "First-time brands, small tests",
     featured: false,
     features: [
@@ -18,7 +17,6 @@ const packages = [
   },
   {
     name: "The Promotion",
-    price: "LKR 100,000",
     bestFor: "Full reach, stronger brand impact",
     featured: true,
     features: [
@@ -32,7 +30,6 @@ const packages = [
   },
   {
     name: "Move Around",
-    price: "Custom",
     priceNote: "Get a quote",
     bestFor: "Flexible partnerships, long-term deals",
     featured: false,
