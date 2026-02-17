@@ -16,12 +16,19 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const DebugRouter = () => {
+  const location = useLocation();
+  console.log("Current Path:", location.pathname);
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter basename="/">
+        <DebugRouter />
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Index />} />
