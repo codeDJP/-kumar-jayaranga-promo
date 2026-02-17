@@ -13,7 +13,7 @@ interface DownloadButtonProps {
 const DownloadButton = ({ href, label, version, lastUpdated, variant = "hero-outline", size = "default" }: DownloadButtonProps) => (
   <div className="inline-flex flex-col items-start gap-1">
     <Button variant={variant} size={size} asChild>
-      <a href={href} download>
+      <a href={href} target="_blank" rel="noopener noreferrer">
         <Download size={16} />
         {label}
       </a>

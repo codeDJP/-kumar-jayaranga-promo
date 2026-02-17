@@ -5,14 +5,14 @@ const documents = [
   {
     title: "Price List",
     description: "Complete pricing for all promotion packages in LKR.",
-    href: "/docs/price-list.pdf",
+    href: "/print/price-list",
     version: "1.0",
     lastUpdated: "February 2026",
   },
   {
     title: "Terms & Conditions",
     description: "Full terms covering payment, publishing rules, extensions, usage rights, and more.",
-    href: "/docs/terms-and-conditions.pdf",
+    href: "/print/terms",
     version: "1.0",
     lastUpdated: "February 2026",
   },
