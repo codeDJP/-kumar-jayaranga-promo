@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, Clock, Bot } from "lucide-react";
 
-const Footer = () => (
-  <footer className="border-t border-border/50 bg-card/50">
+const Footer = () =>
+<footer className="border-t border-border/50 bg-card/50">
     <div className="container py-16">
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
         {/* Brand */}
         <div>
           <h3 className="font-heading text-lg font-bold">
-            <span className="text-gradient">KJ</span> Promo
+            <span className="text-gradient">Kumar Jayaranga
+ </span> Promo
           </h3>
           <p className="mt-2 text-sm text-muted-foreground">
             Tech, Science & Conspiracy promotions. Professional video promotion services for Sri Lankan businesses.
@@ -21,19 +22,18 @@ const Footer = () => (
             Quick Links
           </h4>
           <ul className="mt-4 space-y-2">
-            {[
-              { to: "/packages", label: "Packages" },
-              { to: "/downloads", label: "Download Center" },
-              { to: "/terms", label: "Terms & Conditions" },
-              { to: "/privacy", label: "Privacy Policy" },
-              { to: "/contact", label: "Contact" },
-            ].map((l) => (
-              <li key={l.to}>
+            {[{ to: "/packages", label: "Packages" },
+          { to: "/downloads", label: "Download Center" },
+          { to: "/terms", label: "Terms & Conditions" },
+          { to: "/privacy", label: "Privacy Policy" },
+          { to: "/contact", label: "Contact" }].
+          map((l) =>
+          <li key={l.to}>
                 <Link to={l.to} className="text-sm text-muted-foreground transition-colors hover:text-primary">
                   {l.label}
                 </Link>
               </li>
-            ))}
+          )}
           </ul>
         </div>
 
@@ -84,7 +84,7 @@ const Footer = () => (
         © {new Date().getFullYear()} Kumar Jayaranga — Tringledo (Pvt) Ltd. All rights reserved.
       </div>
     </div>
-  </footer>
-);
+  </footer>;
+
 
 export default Footer;
